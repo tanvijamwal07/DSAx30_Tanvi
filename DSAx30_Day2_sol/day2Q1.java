@@ -24,7 +24,7 @@ public class day2Q1 {
         int target = a.nextInt();
         int[] result = twoSum(nums, target);
         if (result.length == 2) {
-            System.out.println("indices found at" + result[0] + "," + result[1]);
+            System.out.println("index found at" + result[0] + "," + result[1]);
             System.out.println("numbers are " + nums[result[0]] + " + " + nums[result[1]] + " = " + target);
         } else {
             System.out.println("no such pair found");
